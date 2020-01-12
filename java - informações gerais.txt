@@ -1,0 +1,29 @@
+JavaC = Compilador
+JVM = Java Virtual Machine (Interpretador) 
+
+JDK = Programador (Java Development Kit) - Kit de Desenvolvimento
+* JRE
+* JavaLang
+* JavaTools
+  - Javac = Código Fonte => ByteCode
+  - Debugger = Verifica como o programa esta sendo executado (Real-Time)
+
+IDE = Ajuda no desenvolvimento do programa (ex: Eclipse, Netbit)
+
+JRE = Usuário (Java Runtime Environment) - Ambiente execução
+- JVM
+ * Loader = Carrega o bitycode na memória da VM
+ * Interpretator = Transforma o byte cod para o SO em questão
+ * Managment Memory = Gerencia os dados na VM
+ * Compilador JIT = Separa a parte importante do código (Inteligente)
+- Bibliotecas (APIS)
+
+
+Desenvolvedor JDK Cria o programa e gera o bytecode e manda para o cliente.
+O cliente possui o JRE para que o JVM receba o bytecode e interprete para o SO.
+
+
+Codigo Fonte - (Compilador) ->   OB   - (Linker ou Assembler) ->   EXE
+     ^-----------------------------------------------------------^
+                           Interpretador
+
